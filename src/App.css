@@ -1,0 +1,61 @@
+table{
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 15%;
+  border-collapse: collapse;
+  overflow: scroll;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 3%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input,
+  .form select,
+  .form textarea {
+    width: 60%;
+    text-align: center;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+
+.form button{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+td{
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form button[type=reset]{
+  background-color: #f44336;
+}
+
+table button{
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+}
